@@ -29,3 +29,6 @@ OpenSource KNX software and hardware for maker, hobbyist and home automation ent
 * LOG - Logik-Modul
 * BEM - Bewässerungsmodul
 
+**Examples:**  
+**BIN-POT_REG_4TE_28CH** &nbsp; = &nbsp;*Binäreingang mit 28 Kanälen als Reg-Variante mit 4TE*  
+**GW-ENOCEAN_30CH** &nbsp; = &nbsp; *Enocean-Gateway mit 30 Kanälen* 
