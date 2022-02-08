@@ -7,7 +7,7 @@ OpenSource KNX software and hardware for maker, hobbyist and home automation ent
 ### Device names
 
 * TS - Tasterschnittstelle
-* AKT - Aktor 
+* AKT - Universalaktor 
 * SA - Schaltaktor 
 * JA - Jalousieaktor
 * HA - Heizungsaktor
@@ -15,20 +15,20 @@ OpenSource KNX software and hardware for maker, hobbyist and home automation ent
 * DIM-LED - LED Dimmer
 * LED - LED-Anzeige 
 * GW - Gateway
-* BIN-POT - Binäreingang potentialfrei
-* BIN-24V - Binäreingang 24V
-* BIN-230V - Binäreingang 230V
+* BE-POT - Binäreingang potentialfrei
+* BE-24V - Binäreingang 24V
+* BE-230V - Binäreingang 230V
 * SYS-IP - Systemgeräte IP-Interface/Router
 * SYS-USB - Systemgeräte USB-Interface
 * SYS-SER - Systemgeräte Serial-Interface
 * SEN - Sensor-Modul
-* PIR - Bewegungsmelder
-* PRE - Präsenzmelder
+* BM - Bewegungsmelder
+* PM - Präsenzmelder
 * RF - Funk-Module 
 * VIS - Visualisierung
-* LOG - Logik-Modul
+* LM - Logik-Modul
 * BEM - Bewässerungsmodul
 
 **Examples:**  
-**BIN-POT_REG_4TE_28CH** &nbsp; = &nbsp;*Binäreingang mit 28 Kanälen als Reg-Variante mit 4TE*  
-**GW-ENOCEAN_30CH** &nbsp; = &nbsp; *Enocean-Gateway mit 30 Kanälen* 
+**BE-POT_28CH_REG_4TE** &nbsp; = &nbsp;*Binäreingang mit 28 Kanälen als Reg-Variante mit 4TE*  
+**GW-ENOCEAN_30** &nbsp; = &nbsp; *Enocean-Gateway mit 30 Kanälen* 
