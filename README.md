@@ -27,7 +27,7 @@ Device-Class:
 
 Naming of a complete device
 
-<Device-Class>-[<System>]-[<NumberOfChannels>]x<Channelname>
+`<Device-Class>-[<System>]-[<NumberOfChannels>]x<Channelname>`
 
 **Examples:**  
 * BE-REG4-28xPOT
@@ -37,6 +37,7 @@ Naming of a complete device
 * JA-RF-2x230V
 * SEN-UP-8xTH
 * TAS-UP-TouchRGB
+* LED-REG9-24x24V
   
 
 
