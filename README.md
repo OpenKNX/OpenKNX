@@ -1,13 +1,10 @@
 # OpenKNX
 OpenSource KNX software and hardware for maker, hobbyist and home automation enthusiasts
 
+## Device names
 
-## Naming conventions
 
-
-### Device names Vorschlag Dominik, Ergebnisse aus der Diskussion, noch nicht final
-
-Device-Class:
+### Device-Class:
 
 * TAS - Taster
 * SA - Schaltaktor 
@@ -25,9 +22,15 @@ Device-Class:
 * LM - Logik-Modul
 * BEM - Bewässerungsmodul
 
-Naming of a complete device
+### System:
 
-`<Device-Class>-[<System>]-[<NumberOfChannels>]x<Channelname>`
+* REGn - Reiheneinbaugerät für Hutschiene 35mm, n = Anzahl TE
+* UP - Unterputzgerät für den Einbau in Schalterdosen
+* UP1 - OenKNX-UP1 System
+
+### Naming of a complete device
+
+`<Device-Class>-[<System>]-[<NumberOfChannels>]x<Channeldescription>`
 
 **Examples:**  
 * BE-REG4-28xPOT
@@ -35,37 +38,7 @@ Naming of a complete device
 * LED-UP1-6x24V
 * SA-UP-1x230V
 * JA-RF-2x230V
-* SEN-UP-8xTH
-* TAS-UP-TouchRGB
+* SEN-UP1-8xTH
+* TAS-UP1-TouchRGB
 * LED-REG9-24x24V
   
-
-
-### Device names Vorschlag Matthias
-
-* TS - Tasterschnittstelle
-* AKT - Universalaktor 
-* SA - Schaltaktor 
-* JA - Jalousieaktor
-* HA - Heizungsaktor
-* DIM-230V - 230V Dimmer  
-* DIM-LED - LED Dimmer
-* LED - LED-Anzeige 
-* GW - Gateway
-* BE-POT - Binäreingang potentialfrei
-* BE-24V - Binäreingang 24V
-* BE-230V - Binäreingang 230V
-* SYS-IP - Systemgeräte IP-Interface/Router
-* SYS-USB - Systemgeräte USB-Interface
-* SYS-SER - Systemgeräte Serial-Interface
-* SEN - Sensor-Modul
-* BM - Bewegungsmelder
-* PM - Präsenzmelder
-* RF - Funk-Module 
-* VIS - Visualisierung
-* LM - Logik-Modul
-* BEM - Bewässerungsmodul
-
-**Examples:**  
-**BE-POT_28CH_REG_4TE** &nbsp; = &nbsp;*Binäreingang mit 28 Kanälen als Reg-Variante mit 4TE*  
-**GW-ENOCEAN_30** &nbsp; = &nbsp; *Enocean-Gateway mit 30 Kanälen* 
