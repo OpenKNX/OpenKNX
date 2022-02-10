@@ -30,7 +30,9 @@ OpenSource KNX software and hardware for maker, hobbyist and home automation ent
 
 ### Naming of a complete device
 
-`<Device-Class>-[<System>]-[<NumberOfChannels>]x<Channeldescription>`
+`<Device-Class>-[<System>]-[<NumberOfChannels>x]<Channeldescription>`
+
+(parts in [] are optional)
 
 **Examples:**  
 * BE-REG4-28xPOT
@@ -41,4 +43,5 @@ OpenSource KNX software and hardware for maker, hobbyist and home automation ent
 * SEN-UP1-8xTH
 * TAS-UP1-TouchRGB
 * LED-REG9-24x24V
+* GW-DALI
   
