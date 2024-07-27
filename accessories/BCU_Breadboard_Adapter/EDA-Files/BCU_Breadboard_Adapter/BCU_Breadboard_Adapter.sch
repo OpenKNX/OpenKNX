@@ -1,0 +1,601 @@
+EESchema Schematic File Version 4
+LIBS:BCU_Breadboard_Adapter-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BCU Breadboard Adapter"
+Date "2021-05-25"
+Rev "V00.02"
+Comp "KNX Makerstuff"
+Comment1 "by SirSydom <com@sirsydom.de>"
+Comment2 ""
+Comment3 ""
+Comment4 "https://gitlab.com/knx-makerstuff/knx_microbcu2/-/wikis/BCU-Breadboard-Adapter"
+$EndDescr
+$Comp
+L sirsydom:Konnekting_µBCU GN1
+U 1 1 5FBA6334
+P 1450 2250
+F 0 "GN1" H 1508 2915 50  0000 C CNN
+F 1 "Konnekting_µBCU" H 1508 2824 50  0000 C CNN
+F 2 "sirsydom:Konnekting_BCU" H 1350 1800 50  0001 C CNN
+F 3 "" H 1350 1800 50  0001 C CNN
+	1    1450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sirsydom:Siemens_BCU GN2
+U 1 1 5FBA671F
+P 1500 3850
+F 0 "GN2" H 1483 4665 50  0000 C CNN
+F 1 "Siemens_BCU" H 1483 4574 50  0000 C CNN
+F 2 "sirsydom:Siemens_UP117_12_flat_header_only" H 1400 3400 50  0001 C CNN
+F 3 "" H 1400 3400 50  0001 C CNN
+	1    1500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5FBA71A0
+P 5600 2100
+F 0 "J5" H 5572 2074 50  0000 R CNN
+F 1 "VCC_Top" H 5572 1983 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5600 2100 50  0001 C CNN
+F 3 "~" H 5600 2100 50  0001 C CNN
+	1    5600 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5FBA7817
+P 5250 5300
+F 0 "J4" H 5222 5274 50  0000 R CNN
+F 1 "VCC_Bot" H 5222 5183 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5250 5300 50  0001 C CNN
+F 3 "~" H 5250 5300 50  0001 C CNN
+	1    5250 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP5
+U 1 1 5FBA88CA
+P 3800 4950
+F 0 "JP5" V 3846 5052 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 3755 5052 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 4950 50  0001 C CNN
+F 3 "~" H 3800 4950 50  0001 C CNN
+	1    3800 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5FBA9272
+P 1600 4900
+F 0 "J1" H 1708 5081 50  0000 C CNN
+F 1 "KNX_CC" H 1708 4990 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1600 4900 50  0001 C CNN
+F 3 "~" H 1600 4900 50  0001 C CNN
+	1    1600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5FBA98F8
+P 1600 5350
+F 0 "J2" H 1708 5531 50  0000 C CNN
+F 1 "KNX_Wago" H 1708 5440 50  0000 C CNN
+F 2 "sirsydom:KNX_Connector" H 1600 5350 50  0001 C CNN
+F 3 "~" H 1600 5350 50  0001 C CNN
+	1    1600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5FBA9EBD
+P 1600 5800
+F 0 "J3" H 1708 5981 50  0000 C CNN
+F 1 "VCC_Ext" H 1708 5890 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1600 5800 50  0001 C CNN
+F 3 "~" H 1600 5800 50  0001 C CNN
+	1    1600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:ADuM1201AR U1
+U 1 1 5FBAA672
+P 3700 3100
+F 0 "U1" H 3700 3567 50  0000 C CNN
+F 1 "ADuM1201AR" H 3700 3476 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3700 2700 50  0001 C CIN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf" H 3700 3000 50  0001 C CNN
+	1    3700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FBAAE83
+P 4450 3100
+F 0 "C2" H 4565 3146 50  0000 L CNN
+F 1 "100n" H 4565 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4488 2950 50  0001 C CNN
+F 3 "~" H 4450 3100 50  0001 C CNN
+	1    4450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FBAB3CC
+P 2750 3100
+F 0 "C1" H 2865 3146 50  0000 L CNN
+F 1 "100n" H 2865 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2788 2950 50  0001 C CNN
+F 3 "~" H 2750 3100 50  0001 C CNN
+	1    2750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J6
+U 1 1 5FBABE95
+P 5950 3100
+F 0 "J6" H 5922 3074 50  0000 R CNN
+F 1 "BCU_Logik" H 5922 2983 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5950 3100 50  0001 C CNN
+F 3 "~" H 5950 3100 50  0001 C CNN
+	1    5950 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5350 2100 5350
+Wire Wire Line
+	2100 5350 2100 4900
+Wire Wire Line
+	2100 4900 1800 4900
+Wire Wire Line
+	2100 4900 2100 1950
+Wire Wire Line
+	2100 1950 1800 1950
+Connection ~ 2100 4900
+Wire Wire Line
+	1800 2050 2200 2050
+Wire Wire Line
+	2200 2050 2200 3300
+Wire Wire Line
+	2200 5000 1800 5000
+Wire Wire Line
+	1800 5450 2200 5450
+Wire Wire Line
+	2200 5450 2200 5350
+Connection ~ 2200 5000
+$Comp
+L Device:Jumper JP2
+U 1 1 5FBB6C98
+P 3700 1650
+F 0 "JP2" H 3700 1914 50  0000 C CNN
+F 1 "Jumper" H 3700 1823 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3700 1650 50  0001 C CNN
+F 3 "~" H 3700 1650 50  0001 C CNN
+	1    3700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP3
+U 1 1 5FBB724F
+P 3750 3800
+F 0 "JP3" H 3750 4064 50  0000 C CNN
+F 1 "Jumper" H 3750 3973 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3750 3800 50  0001 C CNN
+F 3 "~" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3000 2300 2250
+Wire Wire Line
+	2300 2250 1800 2250
+Wire Wire Line
+	2300 3000 3000 3000
+Wire Wire Line
+	3200 3200 3100 3200
+Wire Wire Line
+	2400 3200 2400 2350
+Wire Wire Line
+	2400 2350 1800 2350
+Wire Wire Line
+	2300 3000 2300 3400
+Wire Wire Line
+	2300 3400 1800 3400
+Connection ~ 2300 3000
+Wire Wire Line
+	2400 3200 2400 3600
+Wire Wire Line
+	2400 3600 1800 3600
+Connection ~ 2400 3200
+Wire Wire Line
+	3400 1650 3000 1650
+Connection ~ 3000 3000
+Wire Wire Line
+	3000 3000 3200 3000
+Wire Wire Line
+	3000 3200 3000 3800
+Wire Wire Line
+	3000 3800 3450 3800
+Connection ~ 3000 3200
+Wire Wire Line
+	3000 3200 2400 3200
+Wire Wire Line
+	4000 1650 4350 1650
+Wire Wire Line
+	4350 3000 4200 3000
+Wire Wire Line
+	4350 3200 4350 3800
+Wire Wire Line
+	4350 3800 4050 3800
+Wire Wire Line
+	1800 2450 2500 2450
+Wire Wire Line
+	2500 2450 2500 2900
+Wire Wire Line
+	2500 2900 2750 2900
+Wire Wire Line
+	1800 3300 2200 3300
+Connection ~ 2200 3300
+Wire Wire Line
+	2200 3300 2200 5000
+Wire Wire Line
+	3200 3300 3150 3300
+Wire Wire Line
+	1800 3700 2500 3700
+Wire Wire Line
+	2500 3700 2500 2900
+Connection ~ 2500 2900
+Wire Wire Line
+	2750 2950 2750 2900
+Connection ~ 2750 2900
+Wire Wire Line
+	2750 2900 3200 2900
+Wire Wire Line
+	2750 3250 2750 3300
+Connection ~ 2750 3300
+Wire Wire Line
+	2750 3300 2200 3300
+Wire Wire Line
+	4200 2900 4450 2900
+Wire Wire Line
+	4450 2900 4450 2950
+Wire Wire Line
+	4450 3250 4450 3300
+Wire Wire Line
+	4450 3300 4250 3300
+Wire Wire Line
+	4450 2900 4800 2900
+Wire Wire Line
+	4800 2900 4800 2100
+Wire Wire Line
+	4800 2100 5250 2100
+Connection ~ 4450 2900
+Wire Wire Line
+	5400 2200 5150 2200
+Wire Wire Line
+	4900 2200 4900 3300
+Wire Wire Line
+	4900 3300 4450 3300
+Connection ~ 4450 3300
+$Comp
+L Device:Jumper JP1
+U 1 1 5FBC5016
+P 3700 1250
+F 0 "JP1" H 3700 1514 50  0000 C CNN
+F 1 "Jumper" H 3700 1423 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3700 1250 50  0001 C CNN
+F 3 "~" H 3700 1250 50  0001 C CNN
+	1    3700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP4
+U 1 1 5FBC58C7
+P 3750 4100
+F 0 "JP4" H 3750 4364 50  0000 C CNN
+F 1 "Jumper" H 3750 4273 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3750 4100 50  0001 C CNN
+F 3 "~" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1250 3400 1250
+Wire Wire Line
+	4000 1250 4800 1250
+Wire Wire Line
+	2750 3300 2750 4100
+Wire Wire Line
+	2750 4100 3450 4100
+Wire Wire Line
+	4050 4100 4900 4100
+Wire Wire Line
+	4900 4100 4900 3300
+Connection ~ 4900 3300
+$Comp
+L Device:Jumper_NC_Dual JP6
+U 1 1 5FBCA54C
+P 3800 5700
+F 0 "JP6" V 3846 5802 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 3755 5802 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 5700 50  0001 C CNN
+F 3 "~" H 3800 5700 50  0001 C CNN
+	1    3800 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 4950 4450 4950
+Wire Wire Line
+	4450 4950 4450 5300
+Wire Wire Line
+	4450 5300 4800 5300
+Wire Wire Line
+	4450 5400 4700 5400
+Wire Wire Line
+	1800 5800 2900 5800
+Wire Wire Line
+	2900 5800 2900 5200
+Wire Wire Line
+	2900 5200 3800 5200
+Wire Wire Line
+	3800 5950 3800 6050
+Wire Wire Line
+	3800 6050 2900 6050
+Wire Wire Line
+	2900 6050 2900 5900
+Wire Wire Line
+	2900 5900 1800 5900
+Wire Wire Line
+	3800 4700 3800 4450
+Wire Wire Line
+	3800 4450 2500 4450
+Wire Wire Line
+	2500 4450 2500 4000
+Wire Wire Line
+	2500 4000 1800 4000
+Wire Wire Line
+	3800 5450 3800 5350
+Wire Wire Line
+	3800 5350 2200 5350
+Connection ~ 2200 5350
+Wire Wire Line
+	2200 5350 2200 5000
+Wire Wire Line
+	4350 3000 5750 3000
+Connection ~ 4350 3000
+Wire Wire Line
+	4350 3200 5350 3200
+Wire Wire Line
+	5350 3200 5350 3100
+Wire Wire Line
+	5350 3100 5750 3100
+Connection ~ 4350 3200
+Wire Wire Line
+	1800 2150 2000 2150
+Wire Wire Line
+	2000 2150 2000 3900
+Wire Wire Line
+	2000 4200 5500 4200
+Wire Wire Line
+	5500 4200 5500 3200
+Wire Wire Line
+	5500 3200 5750 3200
+Wire Wire Line
+	1800 3900 2000 3900
+Connection ~ 2000 3900
+Wire Wire Line
+	2000 3900 2000 4200
+Wire Wire Line
+	1800 4100 1900 4100
+Wire Wire Line
+	1900 4100 1900 4300
+Wire Wire Line
+	1900 4300 5600 4300
+Wire Wire Line
+	5600 4300 5600 3300
+Wire Wire Line
+	5600 3300 5750 3300
+Wire Wire Line
+	3900 5700 4450 5700
+Wire Wire Line
+	4450 5400 4450 5700
+Wire Wire Line
+	1800 2550 2600 2550
+Wire Wire Line
+	2600 2550 2600 4000
+Wire Wire Line
+	2600 4000 2500 4000
+Connection ~ 2500 4000
+$Comp
+L Connector:Conn_01x02_Male J51
+U 1 1 60AD04EB
+P 5600 1800
+F 0 "J51" H 5572 1774 50  0000 R CNN
+F 1 "VCC_Top" H 5572 1683 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5600 1800 50  0001 C CNN
+F 3 "~" H 5600 1800 50  0001 C CNN
+	1    5600 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1800 5250 1800
+Wire Wire Line
+	5250 1800 5250 2100
+Connection ~ 5250 2100
+Wire Wire Line
+	5250 2100 5400 2100
+Wire Wire Line
+	5400 1900 5150 1900
+Wire Wire Line
+	5150 1900 5150 2200
+Connection ~ 5150 2200
+Wire Wire Line
+	5150 2200 4900 2200
+$Comp
+L Connector:Conn_01x02_Male J41
+U 1 1 60AD68A3
+P 5250 5600
+F 0 "J41" H 5222 5574 50  0000 R CNN
+F 1 "VCC_Bot" H 5222 5483 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5250 5600 50  0001 C CNN
+F 3 "~" H 5250 5600 50  0001 C CNN
+	1    5250 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5600 4800 5600
+Wire Wire Line
+	4800 5600 4800 5300
+Connection ~ 4800 5300
+Wire Wire Line
+	4800 5300 5050 5300
+Wire Wire Line
+	5050 5700 4700 5700
+Wire Wire Line
+	4700 5700 4700 5400
+Connection ~ 4700 5400
+Wire Wire Line
+	4700 5400 5050 5400
+$Comp
+L sirsydom:Konnekting_µBCU GN3
+U 1 1 60ADD529
+P 1450 1050
+F 0 "GN3" H 1508 1715 50  0000 C CNN
+F 1 "Konnekting_µBCU" H 1508 1624 50  0000 C CNN
+F 2 "sirsydom:Konnekting_BCU" H 1350 600 50  0001 C CNN
+F 3 "" H 1350 600 50  0001 C CNN
+	1    1450 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 750  2100 750 
+Wire Wire Line
+	2100 750  2100 1950
+Connection ~ 2100 1950
+Wire Wire Line
+	2200 2050 2200 850 
+Wire Wire Line
+	2200 850  1800 850 
+Connection ~ 2200 2050
+Wire Wire Line
+	2000 2150 2000 950 
+Wire Wire Line
+	2000 950  1800 950 
+Connection ~ 2000 2150
+Wire Wire Line
+	2300 2250 2300 1050
+Wire Wire Line
+	2300 1050 1800 1050
+Connection ~ 2300 2250
+Wire Wire Line
+	2400 2350 2400 1150
+Wire Wire Line
+	2400 1150 1800 1150
+Connection ~ 2400 2350
+Wire Wire Line
+	2500 2450 2500 1250
+Wire Wire Line
+	2500 1250 1800 1250
+Connection ~ 2500 2450
+Wire Wire Line
+	2600 2550 2600 1350
+Wire Wire Line
+	2600 1350 1800 1350
+Connection ~ 2600 2550
+Wire Wire Line
+	4350 1650 4350 2100
+Wire Wire Line
+	4800 1250 4800 2000
+Connection ~ 4800 2100
+Wire Wire Line
+	2750 1250 2750 2000
+Wire Wire Line
+	3000 1650 3000 2100
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 60B1583B
+P 3450 2100
+F 0 "J7" H 3400 2300 50  0000 L CNN
+F 1 "Conn_01x04" H 3200 1800 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3450 2100 50  0001 C CNN
+F 3 "~" H 3450 2100 50  0001 C CNN
+	1    3450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 60B16421
+P 3850 2100
+F 0 "J8" H 3850 2300 50  0000 C CNN
+F 1 "Conn_01x04" H 3750 1800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3850 2100 50  0001 C CNN
+F 3 "~" H 3850 2100 50  0001 C CNN
+	1    3850 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2000 3250 2000
+Connection ~ 2750 2000
+Wire Wire Line
+	2750 2000 2750 2900
+Wire Wire Line
+	4050 2000 4800 2000
+Connection ~ 4800 2000
+Wire Wire Line
+	4800 2000 4800 2100
+Wire Wire Line
+	4050 2100 4350 2100
+Connection ~ 4350 2100
+Wire Wire Line
+	4350 2100 4350 3000
+Wire Wire Line
+	3250 2100 3000 2100
+Connection ~ 3000 2100
+Wire Wire Line
+	3000 2100 3000 3000
+Wire Wire Line
+	3250 2200 3100 2200
+Wire Wire Line
+	3100 2200 3100 3200
+Connection ~ 3100 3200
+Wire Wire Line
+	3100 3200 3000 3200
+Wire Wire Line
+	3250 2300 3150 2300
+Wire Wire Line
+	3150 2300 3150 3300
+Connection ~ 3150 3300
+Wire Wire Line
+	3150 3300 2750 3300
+Wire Wire Line
+	4200 3200 4300 3200
+Wire Wire Line
+	4050 2200 4300 2200
+Wire Wire Line
+	4300 2200 4300 3200
+Connection ~ 4300 3200
+Wire Wire Line
+	4300 3200 4350 3200
+Wire Wire Line
+	4250 3300 4250 2300
+Wire Wire Line
+	4250 2300 4050 2300
+Connection ~ 4250 3300
+Wire Wire Line
+	4250 3300 4200 3300
+Wire Notes Line
+	3200 2450 4200 2450
+Wire Notes Line
+	4200 2450 4200 1850
+Wire Notes Line
+	4200 1850 3200 1850
+Wire Notes Line
+	3200 1850 3200 2450
+Text Notes 3000 1800 0    50   ~ 0
+Adum1201 Breakout Board 4x7 0.1"
+$EndSCHEMATC

@@ -1,0 +1,9 @@
+### Module positions - created on 25/09/2021 12:40:02 ###
+### Printed by Pcbnew version kicad (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                           PosX       PosY       Rot  Side
+C1        100n        C_1206_3216Metric_Pad1.42x1.75mm_HandSolder   135.1280  -104.9020  270.0000  top
+C2        100n        C_1206_3216Metric_Pad1.42x1.75mm_HandSolder   146.0500  -104.8655  270.0000  top
+U1        ADuM1201AR  SOIC-8_3.9x4.9mm_P1.27mm                      140.4620  -104.7750    0.0000  top
+## End

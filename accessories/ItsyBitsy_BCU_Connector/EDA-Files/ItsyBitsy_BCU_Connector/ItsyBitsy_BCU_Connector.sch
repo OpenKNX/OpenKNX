@@ -1,0 +1,531 @@
+EESchema Schematic File Version 4
+LIBS:ItsyBitsy_BCU_Connector-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ItsyBItsy BCU Connector"
+Date "2022-02-17"
+Rev "V01.00"
+Comp "OpenKNX"
+Comment1 "by SirSydom <com@sirsydom.de>"
+Comment2 ""
+Comment3 ""
+Comment4 "https://OpenKNX.de"
+$EndDescr
+$Comp
+L sirsydom:ItsyBitsyM0 GN2
+U 1 1 5FCA519C
+P 4550 3300
+F 0 "GN2" H 3173 3321 50  0000 R CNN
+F 1 "ItsyBitsyM0" H 3173 3230 50  0000 R CNN
+F 2 "sirsydom:ItsyBitsyM0" H 4450 2850 50  0001 C CNN
+F 3 "" H 4450 2850 50  0001 C CNN
+	1    4550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x17_Male J2
+U 1 1 5FCA86D1
+P 4650 5200
+F 0 "J2" V 4577 5178 50  0000 C CNN
+F 1 "Conn_01x17_Male" V 4486 5178 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 4650 5200 50  0001 C CNN
+F 3 "~" H 4650 5200 50  0001 C CNN
+	1    4650 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 1700 4000 1750
+Wire Wire Line
+	4000 1750 3600 1750
+Wire Wire Line
+	3600 1750 3600 2400
+Wire Wire Line
+	4100 1850 3750 1850
+Wire Wire Line
+	3750 1850 3750 2300
+Wire Wire Line
+	4100 1700 4100 1850
+Wire Wire Line
+	4200 1700 4200 1950
+Wire Wire Line
+	4200 1950 3900 1950
+Wire Wire Line
+	3900 1950 3900 2550
+Wire Wire Line
+	4300 1700 4300 2050
+Wire Wire Line
+	4300 2050 4050 2050
+Wire Wire Line
+	4050 2050 4050 2550
+Wire Wire Line
+	4400 1700 4400 2150
+Wire Wire Line
+	4400 2150 4200 2150
+Wire Wire Line
+	4200 2150 4200 2550
+Wire Wire Line
+	4500 1700 4500 2250
+Wire Wire Line
+	4500 2250 4350 2250
+Wire Wire Line
+	4350 2250 4350 2550
+Wire Wire Line
+	4600 1700 4600 2350
+Wire Wire Line
+	4600 2350 4500 2350
+Wire Wire Line
+	4500 2350 4500 2550
+Wire Wire Line
+	4700 1700 4700 2450
+Wire Wire Line
+	4700 2450 4650 2450
+Wire Wire Line
+	4650 2450 4650 2550
+Wire Wire Line
+	4800 1700 4800 2550
+Wire Wire Line
+	4900 1700 4900 2450
+Wire Wire Line
+	4900 2450 4950 2450
+Wire Wire Line
+	4950 2450 4950 2550
+Wire Wire Line
+	5000 1700 5000 2350
+Wire Wire Line
+	5000 2350 5100 2350
+Wire Wire Line
+	5100 2350 5100 2550
+Wire Wire Line
+	5100 1700 5100 2250
+Wire Wire Line
+	5100 2250 5250 2250
+Wire Wire Line
+	5250 2250 5250 2550
+Wire Wire Line
+	5200 1700 5200 2150
+Wire Wire Line
+	5200 2150 5400 2150
+Wire Wire Line
+	5400 2150 5400 2350
+Wire Wire Line
+	5300 1700 5300 2050
+Wire Wire Line
+	5300 2050 5550 2050
+Wire Wire Line
+	5550 2050 5550 2200
+Wire Wire Line
+	5400 1700 5400 1950
+Wire Wire Line
+	5400 1950 6250 1950
+Wire Wire Line
+	6250 1950 6250 3000
+Wire Wire Line
+	6250 3000 6050 3000
+Wire Wire Line
+	5500 1700 5500 1850
+Wire Wire Line
+	5500 1850 6350 1850
+Wire Wire Line
+	6350 1850 6350 3150
+Wire Wire Line
+	6350 3150 6050 3150
+Wire Wire Line
+	1750 2000 1900 2000
+Wire Wire Line
+	1900 2000 1900 2850
+Wire Wire Line
+	1900 2850 1750 2850
+Wire Wire Line
+	1750 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 2300
+Wire Wire Line
+	2000 2950 1750 2950
+Wire Wire Line
+	3750 2300 2000 2300
+Connection ~ 3750 2300
+Wire Wire Line
+	3750 2300 3750 2550
+Connection ~ 2000 2300
+Wire Wire Line
+	2000 2300 2000 2950
+Wire Wire Line
+	3850 5000 3600 5000
+Wire Wire Line
+	3600 5000 3600 4100
+Wire Wire Line
+	3950 5000 3950 4900
+Wire Wire Line
+	3950 4900 3750 4900
+Wire Wire Line
+	4050 5000 4050 4800
+Wire Wire Line
+	4050 4800 3900 4800
+Wire Wire Line
+	3900 4800 3900 4100
+Wire Wire Line
+	4150 5000 4150 4700
+Wire Wire Line
+	4150 4700 4050 4700
+Wire Wire Line
+	4050 4700 4050 4100
+Wire Wire Line
+	4250 5000 4250 4600
+Wire Wire Line
+	4250 4600 4200 4600
+Wire Wire Line
+	4200 4600 4200 4100
+Wire Wire Line
+	4350 5000 4350 4100
+Wire Wire Line
+	4450 5000 4450 4150
+Wire Wire Line
+	4450 4150 4500 4150
+Wire Wire Line
+	4500 4150 4500 4100
+Wire Wire Line
+	4550 5000 4550 4250
+Wire Wire Line
+	4550 4250 4650 4250
+Wire Wire Line
+	4650 4250 4650 4100
+Wire Wire Line
+	4650 5000 4650 4350
+Wire Wire Line
+	4650 4350 4800 4350
+Wire Wire Line
+	4800 4350 4800 4100
+Wire Wire Line
+	4750 5000 4750 4450
+Wire Wire Line
+	4750 4450 4950 4450
+Wire Wire Line
+	4950 4450 4950 4100
+Wire Wire Line
+	4850 5000 4850 4550
+Wire Wire Line
+	4850 4550 5100 4550
+Wire Wire Line
+	5100 4550 5100 4100
+Wire Wire Line
+	4950 5000 4950 4650
+Wire Wire Line
+	4950 4650 5250 4650
+Wire Wire Line
+	5250 4650 5250 4100
+Wire Wire Line
+	5050 5000 5050 4750
+Wire Wire Line
+	5050 4750 5400 4750
+Wire Wire Line
+	5400 4750 5400 4100
+Wire Wire Line
+	5150 5000 5150 4850
+Wire Wire Line
+	5150 4850 5550 4850
+Wire Wire Line
+	5550 4850 5550 4100
+Wire Wire Line
+	5250 5000 5250 4900
+Wire Wire Line
+	5250 4900 6150 4900
+Wire Wire Line
+	6150 4900 6150 3600
+Wire Wire Line
+	6150 3600 6050 3600
+Wire Wire Line
+	5350 5000 5350 4950
+Wire Wire Line
+	5350 4950 6300 4950
+Wire Wire Line
+	6300 4950 6300 3450
+Wire Wire Line
+	6300 3450 6050 3450
+Wire Wire Line
+	6050 3300 6400 3300
+Wire Wire Line
+	6400 3300 6400 5000
+Wire Wire Line
+	6400 5000 5450 5000
+Wire Wire Line
+	2200 3350 1750 3350
+Text GLabel 5700 2200 2    50   Input ~ 0
+Rx
+Text GLabel 5700 2350 2    50   Input ~ 0
+Tx
+Wire Wire Line
+	5700 2200 5550 2200
+Connection ~ 5550 2200
+Wire Wire Line
+	5550 2200 5550 2550
+Wire Wire Line
+	5700 2350 5400 2350
+Connection ~ 5400 2350
+Wire Wire Line
+	5400 2350 5400 2550
+Text GLabel 2000 3250 2    50   Input ~ 0
+Rx
+Text GLabel 2000 3150 2    50   Input ~ 0
+Tx
+Wire Wire Line
+	1750 3150 2000 3150
+Wire Wire Line
+	2000 3250 1750 3250
+Connection ~ 2000 1900
+Wire Wire Line
+	1900 2000 1900 1550
+Wire Wire Line
+	1900 1550 1750 1550
+Connection ~ 1900 2000
+Wire Wire Line
+	1750 1450 2000 1450
+Wire Wire Line
+	2000 1450 2000 1900
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5FD0EDC1
+P 2650 2650
+F 0 "JP1" H 2650 2855 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2650 2764 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2650 2650 50  0001 C CNN
+F 3 "~" H 2650 2650 50  0001 C CNN
+	1    2650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5FD0F90E
+P 2700 4300
+F 0 "JP2" H 2700 4505 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2700 4414 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2700 4300 50  0001 C CNN
+F 3 "~" H 2700 4300 50  0001 C CNN
+	1    2700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4100 3750 4300
+Wire Wire Line
+	2200 3350 2200 4300
+Wire Wire Line
+	2200 4300 2550 4300
+Wire Wire Line
+	2850 4300 3750 4300
+Connection ~ 3750 4300
+Wire Wire Line
+	3750 4300 3750 4600
+Wire Wire Line
+	3600 2400 3100 2400
+Wire Wire Line
+	3100 2400 3100 2650
+Wire Wire Line
+	3100 2650 2800 2650
+Connection ~ 3600 2400
+Wire Wire Line
+	3600 2400 3600 2550
+Wire Wire Line
+	1750 3450 2500 3450
+Wire Wire Line
+	2500 3450 2500 2650
+$Comp
+L Device:D_TVS D1
+U 1 1 5FD23C86
+P 2300 1500
+F 0 "D1" V 2254 1579 50  0000 L CNN
+F 1 "D_TVS" V 2345 1579 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 2300 1500 50  0001 C CNN
+F 3 "~" H 2300 1500 50  0001 C CNN
+	1    2300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D2
+U 1 1 5FD24D09
+P 2300 1950
+F 0 "D2" V 2254 2029 50  0000 L CNN
+F 1 "D_TVS" V 2345 2029 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 2300 1950 50  0001 C CNN
+F 3 "~" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1450 2050 1450
+Wire Wire Line
+	2050 1450 2050 1350
+Wire Wire Line
+	2050 1350 2300 1350
+Connection ~ 2000 1450
+Wire Wire Line
+	2300 1650 2150 1650
+Wire Wire Line
+	2150 1650 2150 1550
+Wire Wire Line
+	2150 1550 1900 1550
+Connection ~ 1900 1550
+Wire Wire Line
+	2000 1900 2150 1900
+Wire Wire Line
+	2150 1900 2150 1800
+Wire Wire Line
+	2150 1800 2300 1800
+Wire Wire Line
+	2300 2100 2150 2100
+Wire Wire Line
+	2150 2100 2150 2000
+Wire Wire Line
+	2150 2000 1900 2000
+$Comp
+L Device:C C2
+U 1 1 5FD3B46A
+P 2900 4750
+F 0 "C2" H 3015 4796 50  0000 L CNN
+F 1 "C" H 3015 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2938 4600 50  0001 C CNN
+F 3 "~" H 2900 4750 50  0001 C CNN
+	1    2900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FD3B732
+P 2600 4750
+F 0 "C1" H 2715 4796 50  0000 L CNN
+F 1 "C" H 2715 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2638 4600 50  0001 C CNN
+F 3 "~" H 2600 4750 50  0001 C CNN
+	1    2600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FD3BBDB
+P 3250 4750
+F 0 "C3" H 3365 4796 50  0000 L CNN
+F 1 "C" H 3365 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3288 4600 50  0001 C CNN
+F 3 "~" H 3250 4750 50  0001 C CNN
+	1    3250 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4600 2900 4600
+Connection ~ 3750 4600
+Wire Wire Line
+	3750 4600 3750 4900
+Connection ~ 2900 4600
+Wire Wire Line
+	2900 4600 3250 4600
+Connection ~ 3250 4600
+Wire Wire Line
+	3250 4600 3750 4600
+Wire Wire Line
+	2600 4900 2900 4900
+Connection ~ 2900 4900
+Wire Wire Line
+	2900 4900 3250 4900
+$Comp
+L power:GND #PWR0101
+U 1 1 5FD47E4D
+P 2900 5100
+F 0 "#PWR0101" H 2900 4850 50  0001 C CNN
+F 1 "GND" H 2905 4927 50  0000 C CNN
+F 2 "" H 2900 5100 50  0001 C CNN
+F 3 "" H 2900 5100 50  0001 C CNN
+	1    2900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4900 2900 5100
+$Comp
+L power:GND #PWR0102
+U 1 1 5FD4E8AF
+P 2000 2950
+F 0 "#PWR0102" H 2000 2700 50  0001 C CNN
+F 1 "GND" V 2005 2822 50  0000 R CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2000 2950
+Wire Wire Line
+	1750 3050 2300 3050
+Wire Wire Line
+	2300 3050 2300 2250
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5FCCD0F2
+P 3050 2000
+F 0 "JP3" H 3050 2205 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3050 2114 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3050 2000 50  0001 C CNN
+F 3 "~" H 3050 2000 50  0001 C CNN
+	1    3050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2250 3200 2250
+Wire Wire Line
+	3200 2250 3200 2000
+Connection ~ 4350 2250
+Wire Wire Line
+	2300 2250 2900 2250
+Wire Wire Line
+	2900 2250 2900 2000
+$Comp
+L MicroBCU_Symbol:Konnekting_µBCU GN1
+U 1 1 5FF6922D
+P 1400 3150
+F 0 "GN1" H 1458 3815 50  0000 C CNN
+F 1 "Konnekting_µBCU" H 1458 3724 50  0000 C CNN
+F 2 "MicroBCU2:MicroBCU2_PinSocket" H 1300 2700 50  0001 C CNN
+F 3 "" H 1300 2700 50  0001 C CNN
+	1    1400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L sirsydom:Conn_KNX J4
+U 1 1 5FFA0D53
+P 1550 1550
+F 0 "J4" H 1700 1350 50  0000 L CNN
+F 1 "Conn_KNX" V 1850 1350 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 1550 1550 50  0001 C CNN
+F 3 "~" H 1550 1550 50  0001 C CNN
+	1    1550 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L sirsydom:Conn_KNX J1
+U 1 1 5FFAF221
+P 1550 2000
+F 0 "J1" H 1700 1800 50  0000 L CNN
+F 1 "Conn_KNX" V 1850 1800 50  0000 L CNN
+F 2 "sirsydom:KNX_Connector" H 1550 2000 50  0001 C CNN
+F 3 "~" H 1550 2000 50  0001 C CNN
+	1    1550 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x17_Male J3
+U 1 1 6025A58B
+P 4800 1500
+F 0 "J3" V 4727 1478 50  0000 C CNN
+F 1 "Conn_01x17_Male" V 4636 1478 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 4800 1500 50  0001 C CNN
+F 3 "~" H 4800 1500 50  0001 C CNN
+	1    4800 1500
+	0    1    1    0   
+$EndComp
+Text GLabel 2500 3450 2    50   Input ~ 0
+Vcc2
+Text GLabel 5700 1750 2    50   Input ~ 0
+Vcc2
+Wire Wire Line
+	5600 1700 5600 1750
+Wire Wire Line
+	5600 1750 5700 1750
+$EndSCHEMATC
